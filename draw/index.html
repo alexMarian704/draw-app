@@ -1,0 +1,30 @@
+<!Doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <title>Draw</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>Paint App</header>
+  <canvas id="canvas"></canvas>
+  <div id="buttons">
+      <button id="pen"><i class="fas fa-pen"></i></button>
+      <input id="penColor" type="color">
+      <button id="eraser"><i class="fas fa-eraser"></i></button>
+      <button id="fill"><i class="fas fa-fill-drip"></i></button>
+      <input id="canvasBG" type="color" value="#ffffff">
+      <button id="delete"><i class="fas fa-trash-alt"></i></button>
+      <input type="range"  id="penSize" minlength="2" maxlength="25">
+  </div>
+  <script src="main.js" defer></script>
+</body>
+</html>
