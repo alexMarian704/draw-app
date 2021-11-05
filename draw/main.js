@@ -34,6 +34,7 @@ function draw(e){
 
 }
 //test 
+//test 222222
 
 canvas.addEventListener('mousedown',startDraw);
 canvas.addEventListener('mouseup',stopDraw);
