@@ -33,6 +33,7 @@ function draw(e){
     ctx.moveTo(mouse.x, mouse.y);
 
 }
+//test 
 
 canvas.addEventListener('mousedown',startDraw);
 canvas.addEventListener('mouseup',stopDraw);
